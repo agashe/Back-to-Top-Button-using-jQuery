@@ -1,0 +1,32 @@
+/*Reset All Elements*/ 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{content: ""; width: 100%; height: 750px;}
+
+.red{background-color: red;}
+.green{background-color: green;}
+.blue{background-color: blue;}
+
+.to-top-button{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+.to-top-button:hover{cursor: pointer;}
+
+.top-arrow{
+	width: 0px;
+	height: 0px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid black;
+}
